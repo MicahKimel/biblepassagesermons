@@ -1,0 +1,3 @@
+run api service
+
+`dotnet run --project apiservice.csproj`

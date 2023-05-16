@@ -1,0 +1,6 @@
+
+to host locally
+`npx react-native start`
+
+to run on ios device
+`npx react-native run-ios`
