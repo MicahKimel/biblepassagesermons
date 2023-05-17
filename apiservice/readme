@@ -2,6 +2,10 @@ run api service
 
 `dotnet run --project apiservice.csproj`
 
+swagger url
+
+`http://localhost:5279/swagger/index.html`
+
 list docker images
 
 `docker images`
