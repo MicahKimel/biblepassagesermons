@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS db;
+USE db;
+CREATE TABLE db.Sermon
+(
+	Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	Name nvarchar(256) NOT NULL,
+	CategoryId INT,
+    BookId INT,
+    ChaperId INT,
+	AudioFile LONGBLOB,
+	UpdateTime datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	CreateTime datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
